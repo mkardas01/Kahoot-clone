@@ -1,0 +1,40 @@
+{
+  "name": "kahoot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch"
+  },
+  "pkg": {
+    "scripts": "public/*.js",
+    "assets": [
+      "public/*"
+    ],
+    "targets": [
+      "node18-win-x64",
+      "node18-linux-x64",
+      "node18-macos-arm64"
+    ],
+    "outputPath": "compiled-app"
+  },
+  "bin": {
+    "your-executable-name": "app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "pkg": "^5.8.1",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.7.2",
+    "sse-express": "^1.0.2",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}
