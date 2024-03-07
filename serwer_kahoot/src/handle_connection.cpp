@@ -95,9 +95,6 @@ void disconnectClient(Games *games, UserList *userList, User user, int i) // Dis
     // Zamknięcie połączenia przez klienta
     std::cout << "Connection closed by client " << userList->users[i].userID << std::endl;
 
-    close(userList->users[i].client_socket); // Close any exitisng descriptor
-    close(userList->eventListener[i].fd);
-    close(userList->sendListener[i].fd);
     close(user.client_socket);
 
     bool found = false;
