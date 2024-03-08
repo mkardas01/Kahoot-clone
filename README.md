@@ -1,4 +1,22 @@
-# Kahoot_clone
 
-Compiled client apps:
-https://drive.google.com/drive/u/0/folders/1zNuIH9_SnuA79bqkV3Y7w78pzfDHo2ZM
+# Kahoot Clone
+
+Aplikacja **Kahoot Clone** to klon popularnej platformy edukacyjnej Kahoot. Pozwala na przeprowadzanie dynamicznych quizów z ograniczonym czasem. Poniżej znajdziesz informacje o poszczególnych komponentach aplikacji:
+
+## Serwer (Backend)
+
+Serwer aplikacji został napisany w **C++**.
+Komunikacja między klientami a serwerem odbywa się za pomocą **BSD socket**.
+Wykorzystywany jest protokół **TCP** do przesyłania danych.
+
+
+## Klient (Frontend)
+
+Frontend aplikacji składa się z interfejsu użytkownika.
+- **Technologie użyte w frontendzie**:
+  -HTML: Struktura strony internetowej.
+  -Tailwind CSS: Framework do stylizacji.
+  -JavaScript: Obsługa interakcji użytkownika.
+  -Alpine.js: Minimalistyczny framework JavaScript do dynamicznych komponentów.
+  
+Aplikacja Kahoot Clone umożliwia tworzenie quizów, dołączanie uczestników i przeprowadzanie interaktywnych sesji edukacyjnych. To świetne narzędzie do nauki i zabawy! 🚀
