@@ -4,10 +4,10 @@
 Aplikacja **Kahoot Clone** to klon popularnej platformy edukacyjnej Kahoot. Pozwala na przeprowadzanie dynamicznych quizów z ograniczonym czasem. Poniżej znajdziesz informacje o poszczególnych komponentach aplikacji:
 
 ## Serwer (Backend)
-
-Serwer aplikacji został napisany w **C++**.
-Komunikacja między klientami a serwerem odbywa się za pomocą **BSD socket**.
-Wykorzystywany jest protokół **TCP** do przesyłania danych.
+- **Technologie użyte w backendzie**:
+  - Serwer aplikacji został napisany w **C++**.
+  - Komunikacja między klientami a serwerem odbywa się za pomocą **BSD socket**.
+  - Wykorzystywany jest protokół **TCP** do przesyłania danych.
 
 
 ## Klient (Frontend)
